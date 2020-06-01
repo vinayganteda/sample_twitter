@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Posts from './redux/twitter/PostLists';
+import Posts from './twitter/PostLists';
 import { BrowserRouter as Router,
   Switch,
   Route, Redirect, RouteComponentProps , RouteProps} from 'react-router-dom';
-import PostDetails from './redux/twitter/PostDetails';
-import SignIn from './redux/twitter/login';
+import PostDetails from './twitter/PostDetails';
+import SignIn from './twitter/login';
 
 export interface MatchParams {
   name: string;
